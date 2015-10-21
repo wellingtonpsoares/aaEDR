@@ -1,0 +1,29 @@
+[
+   {
+    "id": 640428,
+    "sinistro": "101201510201400",
+    "segurado": "EDNALDO JOSE DA SILVA",
+    "terceiro": "",
+    "veiculo" : {"marca": "VW", "modelo": "GOL", "placa" : "OIO 2951"},
+    "status": "INICIAL",
+    "tipo_vistoria": "Funilaria",
+    "texto": "",
+    "oficinaID": 1,
+    "observacao" : "Local para inserir alguma observacao",
+    "fotos" : {"painel" : "img/ft_painel.jpg", "chassi" : "img/ft_chassi.jpg", "dianteira" : "img/ft_dianteira.jpg", "traseira" : "img/ft_traseira.jpg", "avaria" : "img/ft_avaria.jpg"}
+  },
+  {
+    "id": 640396,
+    "sinistro": "4814.15.2",
+    "segurado": "NAO INFORMADO",
+    "terceiro": "BRUNO ALEXANDRE DE OLIVEIRA",
+    "veiculo" : {"marca": "FIAT", "modelo": "UNO", "placa" : "NZO 2746"},
+    "status": "INICIAL",
+    "tipo_vistoria": "Funilaria",
+    "texto": "",
+    "oficinaID": 1,
+    "observacao" : "Texto explicativo da observacao, local teste outro texto, com formatacao reduzida etc e formatacao adequada",
+    "fotos" : {"painel" : "img/ft_painel.jpg", "chassi" : "img/ft_chassi.jpg", "dianteira" : "img/ft_dianteira.jpg", "traseira" : "img/ft_traseira.jpg", "avaria" : "img/ft_avaria.jpg"}
+  }
+  
+]

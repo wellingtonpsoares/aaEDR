@@ -1,0 +1,28 @@
+<header class="action-bar">
+	<a class="app-icon action up" ng-click='backApp()'>
+	  <i class="icon-up-button"></i>
+	  <i class="icon-gdg"></i>
+	</a>
+	<h1 class="title">Voltar</h1>
+</header>
+
+<div class="content">
+	<div class="app-content">
+	    <ul>
+			<li id="oficina">
+	          <div class='oficina-info'>
+	            <h4 class='page-header'> {{oficina.razao}}</h4>
+	            <h5>{{oficina.fantasia}}</h5>
+	            <br/>
+	            <h5>Endereço: {{oficina.endereco}}</h5>
+                <h5>Bairro: {{oficina.bairro}}</h5>
+                <h5>Cidade: {{oficina.cidade}}</h5>
+                <h5>Estado: {{oficina.estado}}</h5>
+                <h5>CEP: {{oficina.cep}}</h5>
+                <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> {{oficina.telefone}}</p>
+	           </div>
+	         </li>
+        </ul>
+	</div>
+</div>
+

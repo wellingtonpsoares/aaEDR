@@ -1,0 +1,35 @@
+<header class="action-bar">
+  <a class="app-icon action">
+    <i class="icon-gdg"></i>
+  </a>
+  <h1 class="title">EDR - Vistorias</h1>
+</header>
+
+<nav class="tab-fixed">
+  <ul class="tab-inner">
+    <li class='active' ><a href="#/vistorias" data-ignore="true"><i class="icon-view-as-list"></i></a></li>
+    <li><a href="#/oficinas"><i class="icon-group"></i></a></li>
+  </ul>
+</nav>
+
+<div class="content">
+	<div class="app-content">
+    <input type="text" class="form-control" placeholder="Pesquisa" ng-model="filtro">
+		<ul>
+          <li id="vistorias" class="tab-item active">
+            <ul class="list inset">
+              <li class="list-divider">Vistorias</li>
+              <li class="list-item-multi-line selectable" ng-repeat="item in vistorias">
+                <a href="#/vistoria/{{item.id}}">
+                  <h3>{{item.id}} - {{item.sinistro}}</h3>
+                  <p>Segurado: {{item.segurado}}</p>
+                  <p>Terceiro: {{item.terceiro}}</p>
+                  
+                  
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+	</div>
+</div>

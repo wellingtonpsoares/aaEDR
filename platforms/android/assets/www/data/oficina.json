@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "razao": "AGRESTE VEICULOS LTDA",
+    "fantasia": "AGRESTE VEICULOS",
+    "endereco": "JOSE PINHEIRO DOS SANTOS",
+    "bairro": "AGAMENOM MAGALHAES",
+    "cidade": "CARUARU",
+    "estado": "PE",
+    "cep": "55032640",
+    "telefone":"81-3722.1919"
+  },
+  {
+    "id": 10882,
+    "razao": "BARBOSA FUNILARIA E PINTURA LTDA",
+    "fantasia": "BARBOSA-BARBOSA",
+    "endereco": "AV VALE DAS PEDRINHAS",
+    "bairro": "NORDESTE DE AMARALIN",
+    "cidade": "SALVADOR",
+    "estado": "BA",
+    "cep": "41905615",
+    "telefone":"71 8739.4543"
+  },
+  {
+    "id": 10850,
+    "razao": "MULTIMARCAS COMERCIO DE PEÇAS E REPARAÇÃ",
+    "fantasia": "MARTELINHO MASTER",
+    "endereco": "RAU ITANAGÉ",
+    "bairro": "IPSEP",
+    "cidade": "RECIFE",
+    "estado": "PE",
+    "cep": "51350120",
+    "telefone":"81 34713479"
+  },
+  {
+    "id": 1248,
+    "razao": "ITALIANA AUTOMÓVEIS DO RECIFE LTDA",
+    "fantasia": "ITALIANA",
+    "endereco": "ABELARDO",
+    "bairro": "GRACAS",
+    "cidade": "RECIFE",
+    "estado": "PE",
+    "cep": "52050310",
+    "telefone":"81 34721100"
+  }
+  
+]

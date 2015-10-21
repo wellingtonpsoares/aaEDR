@@ -1,0 +1,31 @@
+<header class="action-bar">
+  <a class="app-icon action">
+    <i class="icon-gdg"></i>
+  </a>
+  <h1 class="title">EDR - Vistorias</h1>
+</header>
+
+<nav class="tab-fixed">
+  <ul class="tab-inner">
+    <li><a href="#/vistorias" data-ignore="true"><i class="icon-view-as-list"></i></a></li>
+    <li class='active' ><a href="#/oficinas"><i class="icon-group"></i></a></li>
+  </ul>
+</nav>
+
+<div class="content">
+	<div class="app-content">
+		<ul>
+          <li id="oficina" class="tab-item active">
+            <ul class="list inset">
+              <li class="list-divider">OFICINAS</li>
+              <li class="list-item-multi-line selectable" ng-repeat="item in oficinas">
+                <a href="#/oficina/{{item.id}}">
+                  <h4>{{item.razao}} - {{item.cidade}}</h4>
+                  <p>{{item.fantasia}}</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+	</div>
+</div>
