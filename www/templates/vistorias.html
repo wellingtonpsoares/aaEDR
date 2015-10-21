@@ -19,12 +19,12 @@
           <li id="vistorias" class="tab-item active">
             <ul class="list inset">
               <li class="list-divider">Vistorias</li>
-              <li class="list-item-multi-line selectable" ng-repeat="item in vistorias">
+              <li class="list-item-multi-line selectable" ng-repeat="item in vistorias ">
                 <a href="#/vistoria/{{item.id}}">
                   <h3>{{item.id}} - {{item.sinistro}}</h3>
-                  <p>Segurado: {{item.segurado}}</p>
-                  <p>Terceiro: {{item.terceiro}}</p>
-                  
+                  <h4>Segurado: {{item.segurado}}</h4>
+                  <h4>Terceiro: {{item.terceiro}}</h4>
+                  <span class="label label-{{item.estado.tipo}}">{{item.estado.nome}}</span>
                   
                 </a>
               </li>
