@@ -13,13 +13,20 @@
 </nav>
 
 <div class="content">
-	<div class="app-content">
+	<div class="app-content" >
+  <!--<md-content layout-padding>
+    <md-input-container>
+      <label>Pesquisa</label>
+      <input ng-model="filtro">
+    </md-input-container>
+    </md-content> -->
+
     <input type="text" class="form-control" placeholder="Pesquisa" ng-model="filtro">
 		<ul>
           <li id="vistorias" class="tab-item active">
             <ul class="list inset">
               <li class="list-divider">Vistorias</li>
-              <li class="list-item-multi-line selectable" ng-repeat="item in vistorias ">
+              <li class="list-item-multi-line selectable" ng-repeat="item in vistorias | filter: filtro">
                 <a href="#/vistoria/{{item.id}}">
                   <h3>{{item.id}} - {{item.sinistro}}</h3>
                   <h4>Segurado: {{item.segurado}}</h4>

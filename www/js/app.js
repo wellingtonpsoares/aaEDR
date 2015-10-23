@@ -1,6 +1,6 @@
 /* CODE BY @GUSTAVOCOSTAW */
 
-var app = angular.module('myApp', ['ngRoute']).config(
+var app = angular.module('myApp', ['ngRoute', 'ngTouch']).config(
     function($routeProvider) {
         /*ROTAS*/
         $routeProvider
@@ -25,9 +25,10 @@ var app = angular.module('myApp', ['ngRoute']).config(
             });
 
     }).run(function() {
-    //remove 300ms delay touch
-    FastClick.attach(document.body);
-});
+        //remove 300ms delay touch
+        FastClick.attach(document.body);
+        }
+);
 
 /* CONTROLLERS */
 app.controller('Speakers', function($scope, $routeParams, Speakers) {

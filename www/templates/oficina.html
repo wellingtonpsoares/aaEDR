@@ -12,16 +12,32 @@
 			<li id="oficina">
 	          <div class='oficina-info'>
 	            <h4 class='page-header'> {{oficina.razao}}</h4>
-	            <h5>{{oficina.fantasia}}</h5>
-	            <br/>
-	            <h5>Endereço: {{oficina.endereco}}</h5>
-                <h5>Bairro: {{oficina.bairro}}</h5>
-                <h5>Cidade: {{oficina.cidade}}</h5>
-                <h5>Estado: {{oficina.estado}}</h5>
-                <h5>CEP: {{oficina.cep}}</h5>
+	            
+	            <h5><b>{{oficina.fantasia}}</b></h5>
+	            <address>
+	            {{oficina.endereco}} <br/>
+                {{oficina.bairro}} <br/>
+                {{oficina.cidade}} {{oficina.estado}} <br/>
+                {{oficina.cep}} <br/>
+                </address>
                 <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> {{oficina.telefone}}</p>
+
 	           </div>
 	         </li>
+	        <li id="vistorias" class="tab-item active">
+            <ul class="list inset">
+              <li class="list-divider">Vistorias</li>
+              <li class="list-item-multi-line selectable" ng-repeat="item in vistorias | filter: filtro">
+                <a href="#/vistoria/{{item.id}}">
+                  <h3>{{item.id}} - {{item.sinistro}}</h3>
+                  <h4>Segurado: {{item.segurado}}</h4>
+                  <h4>Terceiro: {{item.terceiro}}</h4>
+                  <span class="label label-{{item.estado.tipo}}">{{item.estado.nome}}</span>
+                  
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
 	</div>
 </div>

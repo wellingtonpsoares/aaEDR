@@ -43,6 +43,21 @@
     "oficinaID": 1,
     "observacao" : "Texto explicativo da observacao, local teste outro texto, com formatacao reduzida etc e formatacao adequada",
     "fotos" : {"painel" : "img/ft_painel.jpg", "chassi" : "img/ft_chassi.jpg", "dianteira" : "img/ft_dianteira.jpg", "traseira" : "img/ft_traseira.jpg", "avaria" : "img/ft_avaria.jpg"}
+  },
+  {
+    "id": 642899,
+    "sinistro": "6543358997654",
+    "segurado": "JOSE MARIA DA SILVA",
+    "terceiro": "JOAO PEDRO XAVIER",
+    "seguradora" : "NOBRE SEGURADORA",
+    "veiculo" : {"marca": "VW", "modelo": "SPACEFOX", "placa" : "KJL0991"},
+    "status": "INICIAL",
+    "estado" : {"nome":"Transmitido", "tipo":"info"},
+    "tipo_vistoria": "Funilaria",
+    "texto": "",
+    "oficinaID": 1,
+    "observacao" : "Texto explicativo da observacao, local teste outro texto, com formatacao reduzida etc e formatacao adequada",
+    "fotos" : {"painel" : "img/ft_painel.jpg", "chassi" : "img/ft_chassi.jpg", "dianteira" : "img/ft_dianteira.jpg", "traseira" : "img/ft_traseira.jpg", "avaria" : "img/ft_avaria.jpg"}
   }
   
 ]

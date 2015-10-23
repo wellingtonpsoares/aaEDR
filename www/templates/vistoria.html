@@ -5,11 +5,11 @@
 	</a> -->
 	<div class="row">
 	 <div class="col-lg-4">
-	<button type="button" class="btn btn-default btn-xs" ng-click='backApp()'>
+	<button type="button" class="btn btn-mini btn-xs" ng-click='backApp()'>
   		<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span> Voltar
 	</button>
 	
-	<button type="button" class="btn btn-default btn-xs" ng-click='backApp()'>
+	<button type="button" class="btn btn-mini btn-xs" ng-click='backApp()'>
   		Salvar<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> 
 	</button>
 	</div>
@@ -34,14 +34,17 @@
 	            <h6 class='vistoria-observacao'>OBS: {{vistoria.observacao}}</h6>
 	            <br/>
 
-	            <div ><p class='page-header'> PAINEL </p>
+	            <div class="form-group">
+	            <h3 class='page-header'> PAINEL  <button type="button" class="btn btn-mini">Left</button>   </h3> 
 	                <img src="{{vistoria.fotos.painel}}" alt="Painel" height="160" width="240">
 	            	<!--<img src="{{vistoria.fotos.painel}}"> -->
 	            </div>
-	            <div > <p class='page-header'> CHASSI </p>
+	            <div > <h3 class='page-header'> CHASSI <button type="button" class="btn btn-mini btn-xs" aria-label="Left Align">
+  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+</button></h3>
 	                <img src="{{vistoria.fotos.chassi}}" alt="Chassi" height="160" width="240">
 	            </div>
-	            <div > <p class='page-header'> DIANTEIRA 45º </p>
+	            <div > <p class='page-header'> DIANTEIRA 45º <button type="button" class="btn btn-primary btn-xs">Extra small button</button></p>
 	                <img src="{{vistoria.fotos.dianteira}}" alt="Dianteira" height="160" width="240">
 	            </div>
 	            <div > <p class='page-header'> TRASEIRA 45º </p>
